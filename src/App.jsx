@@ -11,9 +11,9 @@ const designColors=[
  {name:'Clay',hex:'#BC7D60',note:'Human warmth'},
 ];
 const designImages=[
- {type:'chair',alt:'Illustration of a secondhand wooden chair',caption:'Objects with a story',reason:'Furniture is useful for years, not just seasons. I want condition and pickup details to be easy to find.'},
- {type:'lamp',alt:'Illustration of a pre-loved table lamp',caption:'Useful, everyday finds',reason:'I give everyday objects generous space so finding a secondhand item can feel considered and inviting.'},
- {type:'scarf',alt:'Illustration of a pre-loved textile',caption:'A softer kind of shopping',reason:'Gentle colors and familiar textures make reuse feel personal rather than preachy.'},
+ {type:'chair',alt:'Sunlit wooden chair with a houseplant in a warm Nordic interior',caption:'Objects with a story',reason:'Furniture can be useful for years, not just seasons. I want the everyday beauty of pre-loved things to come first.'},
+ {type:'lamp',alt:'Cream-colored vintage desk lamp against a neutral wall',caption:'Useful, everyday finds',reason:'I chose familiar, practical objects and quiet backdrops because finding something secondhand should feel considered and inviting.'},
+ {type:'knitwear',alt:'Folded warm brown knitted sweater on a wooden surface',caption:'A softer kind of shopping',reason:'Natural textures and softer colors make the idea of reuse feel personal and welcoming rather than preachy.'},
 ];
 const journeyInsights=[
  {title:'What might help someone discover?',detail:'A short search field, useful categories and prices visible on cards. I want to test whether students can find an everyday essential without feeling lost.'},
@@ -41,7 +41,7 @@ function DesignStory({onExplore,onGive,onReserve}){
     {designImages.map((item,i)=><figure className={'story-image story-image-'+i} key={item.type}>
      <button className={'story-flip-card '+(flipped===i?'is-flipped':'')} onClick={()=>setFlipped(flipped===i?null:i)} aria-pressed={flipped===i} aria-label={(flipped===i?'Show artwork for ':'Read my design reason for ')+item.caption}>
       <span className="story-flip-inner">
-       <span className="story-flip-front"><img src={art(item.type)} alt={item.alt} loading="lazy"/><span className="flip-hint">↻ Flip to see why</span></span>
+       <span className="story-flip-front"><span className={'story-photo-slice story-photo-'+i}><img src={import.meta.env.BASE_URL+'kierto-moodboard-reference.png'} alt={item.alt} loading="lazy"/></span><span className="flip-hint">↻ Flip to see why</span></span>
        <span className="story-flip-back"><span className="flip-back-number">DESIGN NOTE / 0{i+1}</span><strong>{item.caption}</strong><span>{item.reason}</span><small>↶ Back to object</small></span>
       </span>
      </button>
