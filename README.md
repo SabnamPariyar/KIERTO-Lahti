@@ -4,7 +4,7 @@
   <a href="https://sabnumpariyar-png.github.io/KIERTO-Lahti/"><img src="docs/preview-button.svg" width="380" alt="Open the interactive KIERTO prototype" /></a>
 
   <p><strong>A little more life for the things we already have.</strong></p>
-  <p>Mobile-first UX concept · Circular economy · Student life in Lahti, Finland</p>
+  <p>Mobile-first UX concept · Circular economy · Interactive design story · Lahti, Finland</p>
 </div>
 
 ---
@@ -29,6 +29,7 @@ I wanted to connect something I care about—making more thoughtful use of every
 | 📅 | **Reserve** | A simulated pickup-day selection and reservation confirmation |
 | ＋ | **Give an item** | A lightweight form for adding a temporary sample listing |
 | ☷ | **Activity** | A simple overview of saved, reserved, and offered items |
+| ↕ | **Design story** | Scroll below the app for flip cards, color experiments, UI components, and UX thinking |
 
 The prototype runs entirely in the browser. **There are no real sellers, accounts, payments, messages, or persistent reservations.**
 
@@ -37,6 +38,8 @@ The prototype runs entirely in the browser. **There are no real sellers, account
 <p align="center"><img src="docs/design-palette.svg" width="100%" alt="KIERTO's design palette: moss green, ivory, soft mint, charcoal, and muted clay." /></p>
 
 I chose an **earthy, soft visual language** so the interface feels more like a friendly community space than a busy shopping platform.
+
+Below the live app, I've added an **interactive design-system showcase**. You can flip the moodboard cards to see my reasoning, select color tokens to try them on a component, test a favorite state and sample filters, and explore the intended UX journey.
 
 - **Moss green** for actions and direction, paired with warm ivory backgrounds.
 - **Clear, rounded item cards** that make condition, price, and location easy to scan.
