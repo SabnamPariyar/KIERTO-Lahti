@@ -1,91 +1,108 @@
-# KIERTO Lahti — UX case study
+# KIERTO Lahti — My UX case study
 
-**Portfolio working draft for Sabnam Pariyar.** This document records the concept and proposed research. Interviews, usability testing, and impact measurement have **not** been completed.
+Hi, I'm **Sabnam Pariyar**, a Sustainable Design Business student at LAB University of Applied Sciences in Lahti.
 
-## Context
+KIERTO is an independent concept I'm developing for my UI/UX portfolio. I'm using it to explore how digital design can support reuse in everyday student life.
 
-KIERTO explores a student-friendly way to exchange pre-loved goods in Lahti, Finland. It connects sustainable consumption with a practical service-design challenge: helping someone find a useful item nearby or pass on an item they no longer need.
+**Project stage:** Interactive prototype. My research and testing plan is outlined below; I have not completed formal user interviews, usability studies, or environmental-impact measurements yet.
 
-**Study context:** Sustainable Design Business, LAB University of Applied Sciences. This is an independent concept, not a LAB service.
+## 1. Why I chose this idea
 
-## Problem hypothesis
+I wanted to work on something connected to my studies and to the place where I live and study.
 
-Students may need affordable essentials when moving or beginning studies, while useful furniture, books, and household items remain unused in other homes. Existing resale processes may require more searching and coordination than a small local exchange needs.
+A student moving into a new room might need a chair, lamp, or books. Another student might have exactly those things sitting unused. I began wondering how a small, locally focused service could help connect them.
 
-The hypothesis needs field research; it is not based on completed interviews.
+My starting idea is a hypothesis, not a research finding.
 
-**Design question:** How might we make local secondhand exchange simpler, more trustworthy, and more welcoming for students?
+**My design question:** *How might I make sharing and finding secondhand items easier and more comfortable for students in Lahti?*
 
-## Intended users (hypothetical)
+## 2. Who I'm thinking about
 
-- **New student:** Wants affordable items and convenient pickup.
-- **Student moving out:** Wants to give useful belongings another life quickly.
-- **Local resident:** Wants to reuse items without a complicated shopping flow.
+Before doing interviews, I imagined three possible situations:
 
-These are provisional situations, not research-derived personas.
+- **A new student** who needs affordable essentials and an easy pickup location.
+- **A student moving out** who wants to pass useful things on without a complicated process.
+- **A local resident** who likes reusing things but still wants a convenient experience.
 
-## Prototype user journey
+These are provisional user scenarios. I will revise them when I have real evidence.
 
-1. Browse a local feed of sample items.
-2. Use search and category filters.
-3. Open a listing to see the price, condition, pickup area, and description.
-4. Choose a preferred pickup day and make a simulated reservation.
-5. Review the activity record.
+## 3. The experience I designed
 
-A second flow lets someone offer an item through a short form. All activity is local to the current demo session.
+I kept the first prototype focused on two basic journeys.
 
-## Initial UX decisions
+**Finding an item:**
 
-| Decision | Assumption to test |
+1. Browse the local item feed.
+2. Search or use a category filter.
+3. Check an item's condition, price, description, and pickup area.
+4. Choose a preferred pickup day in the demo.
+5. See the reservation appear under Activity.
+
+**Giving an item:**
+
+1. Open the Give screen.
+2. Enter the item name, category, condition, location, and description.
+3. Add the sample listing to the feed.
+
+Both journeys are simulated. No real exchange takes place.
+
+## 4. My early design choices
+
+| My choice | What I want to find out |
 | --- | --- |
-| Condition and price on listing cards | Helps people decide what to inspect |
-| Short category filters | Makes common student needs easier to find |
-| Pickup area visible early | Supports the decision to reserve |
-| One clear reservation button | Reduces uncertainty about the next action |
-| Activity history | Reassures users that an action was recorded |
-| Simple offer form | Reduces friction when passing an item on |
-| Warm, earthy palette | Makes circular living feel approachable |
+| Show price and condition on the card | Can people decide faster which item to open? |
+| Include simple category filters | Can students find everyday essentials more easily? |
+| Make pickup area visible | Does locality help people feel comfortable? |
+| Use one main reservation button | Is the next step obvious? |
+| Keep an Activity screen | Do people understand what they saved or reserved? |
+| Use a short Give form | Does it feel manageable to offer an item? |
+| Choose earthy, warm colors | Does the interface feel friendly and trustworthy? |
 
-## Current scope
+These choices need testing. I don't yet know which ones work best.
 
-- 25 fictional listings and eight categories
-- Original locally generated item illustrations
-- Search, filter, saved items, item details
-- Demonstration-only reservation and listing flows
-- Responsive mobile and desktop UI
-- React, Vite, JavaScript, CSS and SVG
+## 5. What's in my prototype
 
-**Out of scope:** Real seller accounts, messaging, payments, moderation, persistent storage, and verified pickup arrangements.
+- 25 fictional items across eight categories
+- Product illustrations generated locally as SVG
+- Search and category filtering
+- Item details and favorites
+- Simulated pickup preferences and reservations
+- A basic offer-an-item flow
+- Responsive layouts for mobile and desktop
 
-## Suggested research
+I deliberately left out real accounts, payments, messaging, permanent storage, and moderation for this first version.
 
-**Discovery:** Interview 4–6 students with different housing and shopping experiences. Ask how they currently find or pass on secondhand goods, their concerns about meeting sellers, and which information builds confidence.
+## 6. How I want to test it
 
-**Usability testing:** Invite around five participants to:
+**First, discovery interviews.** I would like to speak with around 4–6 students about how they currently buy, find, and give away used belongings. I want to understand where the process feels difficult and which details they need before trusting a listing.
+
+**Then, a small usability test.** I would ask around five participants to try three tasks:
 
 1. Find a free household item.
-2. Save an item and request weekend pickup in the prototype.
-3. Offer a used study accessory.
+2. Save an item and choose weekend pickup.
+3. Offer a used desk accessory.
 
-Record completion, confusion, and comments. Obtain consent before recording any personal information.
+I'd observe where they hesitate, what they misunderstand, and what they expect to happen. I would ask for appropriate consent before recording notes or personal information.
 
-**Iteration:** Identify observed pain points, revise screens, test again, and document before/after decisions.
+**Finally, I would iterate.** I want to compare the first and improved versions and explain the decisions using evidence from testing.
 
-## Sustainability perspective
+## 7. What sustainability means in this project
 
-Keeping useful objects in circulation may avoid unnecessary replacement purchases, but environmental savings cannot be claimed without usage and lifecycle evidence. The design challenge is to make reuse convenient enough to be chosen in everyday life.
+My interest is not just making an app look environmentally friendly. I want to understand whether a well-designed service could make reusing everyday items more convenient.
 
-## Portfolio completion checklist
+I can't claim that this concept has reduced waste or emissions. That would require real usage data and a sound method of measurement.
 
-- [ ] Sabnam revises the screens and documents her own decisions.
-- [ ] Discovery interviews and findings are documented.
-- [ ] A research-grounded journey map is created.
-- [ ] At least one usability round informs a design iteration.
-- [ ] Figma components and visual rules are documented.
-- [ ] Screenshots reflect the current implementation.
-- [ ] Individual contributions are described accurately.
-- [ ] Any environmental-impact claim is supported by evidence.
+## 8. My next steps
+
+- [ ] Review the prototype and refine my own design decisions
+- [ ] Conduct and document discovery interviews
+- [ ] Create a research-based user journey map
+- [ ] Run usability testing and document findings
+- [ ] Improve the screens and explain what changed
+- [ ] Build reusable components and visual rules in Figma
+- [ ] Capture current screenshots for my portfolio
+- [ ] Describe my individual contributions and any assistance accurately
 
 ---
 
-Independent educational concept. Not affiliated with or endorsed by LAB University of Applied Sciences.
+*KIERTO is my independent educational portfolio concept, not a service offered by LAB University of Applied Sciences.*
