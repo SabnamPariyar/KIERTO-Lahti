@@ -2,87 +2,95 @@
 
 ### Good things deserve a second story.
 
-A mobile-first circular marketplace concept for students and young people in **Lahti, Finland**. It explores how thoughtful UX can make it easier to discover, give away, and reserve pre-loved items close to campus.
+Hi, I'm **Sabnam Pariyar**. I study Sustainable Design Business at LAB University of Applied Sciences in Lahti, Finland.
 
-**Portfolio project for:** [Sabnam Pariyar](https://github.com/sabnumpariyar-png) — Sustainable Design Business student at LAB University of Applied Sciences  
-**Project:** Independent UI/UX and front-end prototype  
-**Status:** Interactive concept with fictional sample listings
+I'm developing **KIERTO** as an independent UI/UX portfolio concept. I wanted to explore a simple question: *What if students could find and pass on useful secondhand things in their own community with less effort?*
 
-> KIERTO is **not** an official LAB University service. All items, seller names, prices, reservations, and locations are illustrative. There is no backend, payment processing, seller messaging, or real booking.
+KIERTO is my way of bringing together the subjects I care about—sustainability, practical digital services, and clear, friendly interface design.
 
-## The idea
+> This is an educational prototype, not an official LAB University service. The items, people, prices, and pickup details are fictional. Nothing is bought, sold, or reserved in real life.
 
-Students moving to a new apartment may need affordable essentials while useful objects often remain unused in other homes. KIERTO explores a locally focused way to give these objects a longer life.
+## My idea
 
-The concept connects **circular living**, **student affordability**, and **low-friction digital service design**.
+When students move to a new place, they often need everyday things—chairs, books, lamps, kitchenware, or sports equipment. At the same time, perfectly useful items can sit unused.
 
-## Features
+I wanted to imagine a local marketplace where giving something a second life feels as easy as finding something new. I kept the concept focused on Lahti because designing for a familiar place makes the problem feel more concrete.
 
-| Area | Functionality |
+## What you can try
+
+| Feature | What it does |
 | --- | --- |
-| Discover | Browse 25 fictional items |
-| Find | Search by item, category, or pickup area |
-| Filter | Home, Furniture, Electronics, Clothing, Sports, Books, Hobbies, Transport |
-| Details | View condition, price, pickup area, and description |
-| Save | Favorite products |
-| Reserve | Select a preferred pickup day in a simulated flow |
-| Give | Add a sample listing in the current session |
-| Activity | Review saved, reserved, and offered items |
+| Discover | Browse 25 fictional secondhand listings |
+| Search | Find items by name, category, or pickup area |
+| Categories | Home, Furniture, Electronics, Clothing, Sports, Books, Hobbies, and Transport |
+| Item details | See condition, description, price, and pickup area |
+| Favorites | Save items you like |
+| Reserve | Choose a pickup preference in a simulated flow |
+| Give an item | Add a sample listing during your browser session |
+| Activity | View saved, reserved, and offered items |
 
-## Technology
+All actions are demonstrations. There is no server, login, payment, or contact with real sellers.
+
+## My design direction
+
+I wanted the interface to feel calm and approachable.
+
+- **Warm ivory and moss green** make the experience feel friendly and grounded.
+- **Simple product cards** put useful information ahead of visual clutter.
+- **Clear condition and pickup details** help people decide what matters.
+- **One main action per screen** keeps the next step understandable.
+- **Mobile-first layouts** reflect how I imagine students browsing during everyday life.
+
+These are early design decisions, and I want to test whether they work for real users.
+
+## How the prototype works
+
+I use this project to practice the connection between UX design and front-end implementation. The interactive prototype is built with:
 
 - React 19 and Vite 7
-- Responsive CSS and JavaScript
-- Self-contained SVG product illustrations
-- Client-side state only, with no external data or image service
+- JavaScript and responsive CSS
+- Locally generated SVG product illustrations
+- Client-side state, without a backend
 
-## Run locally
+### Run it locally
 
-Requires Node.js 20.19 or newer.
+Use Node.js 20.19 or newer.
 
 ~~~bash
 npm install
 npm run dev
 ~~~
 
-To make a production build:
+To create a production build:
 
 ~~~bash
 npm run build
 ~~~
 
-## GitHub Pages deployment
+## Try it online
 
-A GitHub Actions workflow is included in the repository.
+I've included an automatic GitHub Pages deployment workflow. Once Pages is enabled in **Settings → Pages → GitHub Actions** and the workflow finishes successfully, the demo should be available at:
 
-1. In this repository, go to **Settings → Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Push changes to the main branch or manually run **Deploy KIERTO to GitHub Pages**.
-4. Once the workflow succeeds, the expected project URL is https://sabnumpariyar-png.github.io/KIERTO-Lahti/
+https://sabnumpariyar-png.github.io/KIERTO-Lahti/
 
-The URL above is the expected address, not proof that deployment has succeeded.
+This is the planned address; it may not be live until Pages is enabled.
 
-## UX approach
+## What I want to do next
 
-The interface uses warm ivory, moss green, editorial typography, and straightforward item cards. Condition and pickup information are visible early to help users decide which items are relevant.
+This is still a concept, so I don't want to present assumptions as research findings. My next steps are to:
 
-This prototype explores:
+1. Talk with students in Lahti about how they currently find or give away secondhand items.
+2. Test whether people understand the search, reservation, and listing flows.
+3. Improve trust, safety, accessibility, and pickup communication.
+4. Turn feedback into stronger Figma screens and design-system components.
+5. Document what changed and why.
 
-- Finding useful things nearby
-- Reducing effort to reserve or offer an item
-- Communicating the information needed for a comfortable exchange
-- Making a sustainability-oriented experience friendly and practical
-
-Read the [UX case study](docs/UX_CASE_STUDY.md) for the problem hypothesis, proposed user journey, design reasoning, and research plan.
-
-## What's next
-
-- Interview students in Lahti and validate the problem.
-- Test discovery and item-giving tasks with real participants.
-- Improve privacy, trust, accessibility, and safe pickup guidance.
-- Replace illustrations with product photos where appropriate.
-- Document Sabnam's own research, design iterations, and contributions before using this as a completed job-application case study.
+I've written a more detailed [UX case-study draft](docs/UX_CASE_STUDY.md) to guide that process.
 
 ---
 
-Independent educational concept prepared for Sabnam Pariyar. No official affiliation with LAB University of Applied Sciences.
+*I'm exploring how small, thoughtful design decisions can make sustainable everyday choices a little easier.*
+
+**Sabnam Pariyar · Lahti, Finland**
+
+Independent student portfolio concept. Not affiliated with or endorsed by LAB University of Applied Sciences.
