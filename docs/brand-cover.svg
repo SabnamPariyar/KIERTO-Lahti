@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="505" viewBox="0 0 1120 505" role="img" aria-labelledby="title desc">
+  <title id="title">KIERTO Lahti — Good things deserve a second story</title>
+  <desc id="desc">Moss green and warm ivory portfolio cover, featuring a friendly secondhand lamp illustration and a mobile item feed.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F5EF"/><stop offset="1" stop-color="#E5EDE4"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="15" stdDeviation="19" flood-color="#25422F" flood-opacity=".17"/></filter>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#B7CBB7" opacity=".4"/></pattern>
+  </defs>
+  <rect width="1120" height="505" rx="29" fill="url(#bg)"/>
+  <path d="M0 384Q240 287 525 470V505H0Z" fill="#DBE8DB" opacity=".8"/>
+  <circle cx="1015" cy="65" r="172" fill="#D8E7D9"/><circle cx="994" cy="428" r="179" fill="#CBDCCF" opacity=".7"/>
+  <rect x="570" width="550" height="505" fill="url(#dots)" opacity=".4"/>
+  <g transform="translate(60 56)">
+    <rect width="153" height="29" rx="14.5" fill="#DCE9DD"/>
+    <circle cx="16" cy="14.5" r="5.5" fill="#507D5E"/>
+    <text x="29" y="19" font-size="10.5" fill="#42694E" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1.3">LAHTI · FINLAND</text>
+    <text x="0" y="140" font-size="94" fill="#34634A" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-7">KIERTO</text>
+    <circle cx="386" cy="117" r="8" fill="#A5AD72"/>
+    <text x="3" y="202" font-size="43" fill="#263E30" font-family="Georgia,serif">Good things deserve</text>
+    <text x="3" y="254" font-size="43" fill="#4E8661" font-family="Georgia,serif" font-style="italic">a second story.</text>
+    <rect x="3" y="281" width="58" height="3" rx="1.5" fill="#86A78C"/>
+    <text x="3" y="325" font-size="17" fill="#66786B" font-family="Arial,sans-serif">A circular student marketplace concept.</text>
+    <text x="3" y="354" font-size="14" fill="#829184" font-family="Arial,sans-serif">Designed in Lahti · Made for everyday reuse</text>
+    <rect x="3" y="382" width="130" height="30" rx="15" fill="#E0EBDE"/>
+    <text x="18" y="401" font-size="11" fill="#41664B" font-family="Arial,sans-serif" font-weight="700">SECONDHAND ♻</text>
+    <rect x="145" y="382" width="115" height="30" rx="15" fill="#EAEBDD"/>
+    <text x="162" y="401" font-size="11" fill="#66734F" font-family="Arial,sans-serif" font-weight="700">MOBILE UX ✦</text>
+  </g>
+  <!-- familiar secondhand object, softly tucked behind the device -->
+  <g transform="translate(625 246) rotate(-12)">
+    <ellipse cx="77" cy="180" rx="66" ry="12" fill="#95B09A" opacity=".35"/>
+    <path d="M28 27H118L102 89H45Z" fill="#D6AA84" stroke="#B98668" stroke-width="3"/>
+    <path d="M45 89H104" stroke="#AB8266" stroke-width="6" stroke-linecap="round"/>
+    <path d="M75 91V164" stroke="#456D53" stroke-width="8" stroke-linecap="round"/>
+    <path d="M40 169Q75 147 110 169Z" fill="#34634A"/>
+    <path d="M72 94C72 123 100 123 100 146" fill="none" stroke="#7CA387" stroke-width="2"/>
+  </g>
+  <g transform="translate(828 47) rotate(5 113 206)" filter="url(#shadow)">
+    <rect width="231" height="416" rx="35" fill="#FFFFFF"/>
+    <rect x="8" y="8" width="215" height="400" rx="28" fill="#FBFAF6"/>
+    <rect x="89" y="16" width="54" height="5" rx="3" fill="#D9E1D9"/>
+    <text x="26" y="62" font-size="28" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2" fill="#34634A">kierto<tspan fill="#A5AD72">.</tspan></text>
+    <circle cx="195" cy="52" r="14" fill="#FFFFFF" stroke="#E5E8DF"/>
+    <path d="M191 52H199M195 48V56" stroke="#57715C" stroke-width="1.5"/>
+    <text x="25" y="95" fill="#66866D" font-size="9.5" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1.1">HELLO, LAHTI</text>
+    <text x="25" y="124" font-size="24" font-family="Georgia,serif" fill="#2E4836">Find your next</text>
+    <text x="25" y="151" font-size="24" font-family="Georgia,serif" font-style="italic" fill="#61906A">second story.</text>
+    <rect x="25" y="165" width="182" height="32" rx="11" fill="#FFFFFF" stroke="#E4E9E1"/>
+    <circle cx="41" cy="181" r="5" stroke="#829585" stroke-width="1.5" fill="none"/><path d="m45 185 4 4" stroke="#829585" stroke-width="1.5"/>
+    <text x="57" y="184" font-size="10" font-family="Arial,sans-serif" fill="#97A99A">Search items...</text>
+    <text x="25" y="221" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#344E3B">Fresh finds</text>
+    <rect x="25" y="232" width="84" height="108" rx="10" fill="#E4ECE0"/>
+    <rect x="120" y="232" width="86" height="108" rx="10" fill="#EDE4DB"/>
+    <ellipse cx="67" cy="319" rx="23" ry="5" fill="#BACDB9"/>
+    <path d="M53 285L59 317H76L83 285Z" fill="#BF896C"/><path d="M51 285H86" stroke="#AA7259" stroke-width="5" stroke-linecap="round"/>
+    <path d="M68 286V256M68 275Q48 271 54 260Q67 260 68 275M68 270Q90 265 84 251Q71 252 68 270" fill="#729B76" stroke="#4F8159" stroke-width="1.5"/>
+    <g transform="translate(136 276) rotate(-4)"><rect width="55" height="11" rx="2" fill="#6C8E74"/><rect x="5" y="12" width="49" height="11" rx="2" fill="#DBB290"/><rect x="2" y="24" width="54" height="11" rx="2" fill="#9DAE89"/></g>
+    <text x="26" y="357" font-size="10" font-weight="700" font-family="Arial,sans-serif" fill="#385541">Ceramic planter</text>
+    <text x="120" y="357" font-size="10" font-weight="700" font-family="Arial,sans-serif" fill="#385541">Used books</text>
+    <text x="26" y="374" font-size="10" font-weight="700" font-family="Arial,sans-serif" fill="#34634A">€ 4</text>
+    <text x="120" y="374" font-size="10" font-weight="700" font-family="Arial,sans-serif" fill="#34634A">Free</text>
+    <path d="M18 387H213" stroke="#E3E8E1"/>
+    <g font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#76917A"><text x="39" y="402">⌂</text><text x="90" y="402">♡</text><text x="142" y="402">＋</text><text x="190" y="402">☰</text></g>
+  </g>
+</svg>
